@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Make labels for inputs (e.g., Start Date, End Date, Select Stock Ticker) larger */
+.stDateInput label, .stSelectbox label, .stButton label {
+    font-size: 1.5em !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Make tab headers larger */
+div[data-baseweb="tab"] {
+    font-size: 1.5em !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* General style adjustments for the main title and section headers */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2.0em !important;
+}
+.stMarkdown p {
+    font-size: 1.3em !important;
+}
+
+/* Center the content on the page */
+.block-container {
+    max-width: 800px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}
